@@ -6,6 +6,7 @@ import { useState } from "react"
 import { useEffect } from 'react';
 import ReachUs from "../components/ReachUs/ReachUs"
 import Main from "../components/Main/Main"
+import AlumniServices from "../components/AlumniServices/AlumniServices"
 
 // import Swap from "../components/Image_swap/Swap"
 
@@ -30,6 +31,7 @@ const Home = () => {
               imgcount={imgcount}
         setimgcount={setimgcount} />
           <Main/>
+          <AlumniServices />
           <ReachUs/>
           <Footer/> 
       </div>
